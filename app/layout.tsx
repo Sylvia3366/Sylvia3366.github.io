@@ -4,7 +4,7 @@ import "./globals.css";
 
 const geistPixel = localFont({
   src: "./fonts/Geist_Pixel/GeistPixel-Regular-VariableFont_ELSH.ttf",
-  variable: "--font-geist-pixel", // This must match the variable used in globals.css
+  variable: "--font-geist-pixel",
 });
 
 export default function RootLayout({
@@ -13,9 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={geistPixel.variable}>
       <body className="min-h-full flex flex-col font-sans">
-        <Navbar /> 
         {children}
       </body>
     </html>
