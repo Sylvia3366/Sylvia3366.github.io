@@ -5,10 +5,9 @@ import { motion } from "framer-motion";
 export default function Baking() {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-      viewport={{ once: true, amount: 0.2 }}
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
     >
     <main className="flex flex-col p-10 bg-[#0a192f] bg-[linear-gradient(to_right,#8080801a_1px,transparent_1px),linear-gradient(to_bottom,#8080801a_1px,transparent_1px)] bg-[size:24px_24px] text-white">
   <h1 className="text-5xl font-bold text-center">Baking</h1>
@@ -119,9 +118,9 @@ export default function Baking() {
 <div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
   {/* Left */}
   <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/lbmuffins.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
+    <img src="/lbsmuffins.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
     <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Lemon Blueberry Muffins</h3>
+      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Lemon Blueberry Streusel Muffins</h3>
     </div>
   </div>
 
@@ -186,24 +185,6 @@ export default function Baking() {
       <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Biscoff Cheesecake</h3>
     </div>
   </div>
-</div>
-
-<div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
-  {/* Left */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/bubblewaffle.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Hong Kong Bubble Waffle</h3>
-    </div>
-  </div>
-
-  {/* Right
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/mpmuffins.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Matcha Pandan Muffins</h3>
-    </div>
-  </div> */}
 </div>
 
 <p className="mt-5 text-[#aecce4] font-bold mt-4 text-xl text-center">And more to come... 🍞</p>
