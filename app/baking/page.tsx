@@ -14,10 +14,9 @@ export default function Baking() {
   <p className="text-[#aecce4] font-bold mt-4 text-xl text-center">A toaster oven and a dream 💭</p>
   
   <p className="mt-8 text-center">
-    My passion for baking, like most of my personality, grew during the pandemic. Stuck at home with not much else to do, I took my shampoo no-borax, no-glue, no-glitter slime recipes, did a 180, and swapped for a whisk and some couple of plastic measuring spoons I'll eventually ditch for sleek, modern tech.
+    My passion for baking, like most of my personality, grew during the pandemic. Stuck at home with not much else to do, I took my shampoo no-borax, no-glue, no-glitter slime recipes, did a 180, and swapped for a whisk and some plastic measuring spoons I'll eventually ditch for sleek, modern tech (cough, cough, food scale).
   </p>
 <br />
-  <br />
   <br />
   <p className="text-5xl font-bold text-center">
     Wait, let me cook...
@@ -25,7 +24,7 @@ export default function Baking() {
   <div className="flex flex-col md:flex-row items-center gap-8 w-full">
   {/* Left */}
   <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/lbmuffins.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
+    <img src="/lbsmuffins.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
     <div className="absolute bottom-4 left-4 text-white z-10">
       <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Lemon Blueberry Muffins for Mother's Day</h3>
     </div>
@@ -60,7 +59,7 @@ export default function Baking() {
 
   {/* Right */}
   <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/coffeebuns2.jpg" alt="Coffee Buns" className="h-full w-full object-cover" />
+    <img src="/coffee_buns.jpg" alt="Coffee Buns" className="h-full w-full object-cover" />
     <div className="absolute bottom-4 left-4 text-white z-10">
       <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Coffee Buns w/ Chocolate and Pistachio Filling</h3>
     </div>
@@ -75,119 +74,7 @@ export default function Baking() {
     Point is, 12 grams of corn starch in a recipe I might make twice does not justify me buying a whole jar no one will touch ever again. The end is quite clear: it expires, it's tossed, goodbye $5. Let's be honest, $5 isn't a lot. Neither are pennies, yet we still store them in a 10-year-old piggy bank to count a few months later.
     </p>
 
-    <p className="mt-12 text-5xl font-bold text-center">
-    Bakes 🍰
-  </p><br />
-
-  <div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
-  {/* Left */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/cobread.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Chili Oil Scallion Focaccia</h3>
-    </div>
-  </div>
-
-  {/* Right */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/puffs.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Cream Puffs</h3>
-    </div>
-  </div>
-</div>
-
-<div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
-  {/* Left */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/coffeebuns.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Coffee Buns</h3>
-    </div>
-  </div>
-
-  {/* Right */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/pwcmuffins.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Pistachio White Chocolate Muffins</h3>
-    </div>
-  </div>
-</div>
-
-<div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
-  {/* Left */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/lbsmuffins.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Lemon Blueberry Streusel Muffins</h3>
-    </div>
-  </div>
-
-  {/* Right */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/acinnamonroll.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Apple Cinnamon Rolls</h3>
-    </div>
-  </div>
-</div>
-
-<div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
-  {/* Left */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/bwccookie.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Biscoff White Chocolate Cookies</h3>
-    </div>
-  </div>
-
-  {/* Right */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/cmuffins.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Double Chocolate Muffins</h3>
-    </div>
-  </div>
-</div>
-
-<div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
-  {/* Left */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/rvmuffins.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Red Velvet Muffins</h3>
-    </div>
-  </div>
-
-  {/* Right */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/mpmuffins.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Matcha Pandan Muffins</h3>
-    </div>
-  </div>
-</div>
-
-<div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full">
-  {/* Left */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/mocreamcake.jpg" alt="Chili Oil Scallion Focaccia" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Mango Orange Cream Cake</h3>
-    </div>
-  </div>
-
-  {/* Right */}
-  <div className="relative overflow-hidden rounded-2xl w-full md:w-1/2 h-80">
-    <img src="/bcheesecake.jpg" alt="Lemon Blueberry Muffins" className="h-full w-full object-cover" />
-    <div className="absolute bottom-4 left-4 text-white z-10">
-      <h3 className="text-xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Biscoff Cheesecake</h3>
-    </div>
-  </div>
-</div>
-
-<p className="mt-5 text-[#aecce4] font-bold mt-4 text-xl text-center">And more to come... 🍞</p>
+<p className="mt-5 text-[#aecce4] font-bold mt-4 text-xl text-center">Bakes on Instagram! 🍞</p>
 
 </main>
 </motion.div>
