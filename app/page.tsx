@@ -29,7 +29,7 @@ export default function Home() {
   </div>
 
   <div className="relative overflow-hidden rounded-2xl transition-all duration-500 ease-in-out flex-[1] group-hover:opacity-50 group-hover:blur-sm hover:!opacity-100 hover:!blur-none hover:!flex-[2]">
-    <Link href="/stories" className="block h-full w-full cursor-pointer">
+    <Link href="/diary" className="block h-full w-full cursor-pointer">
       <img src="/diary.jpg" alt="Diary" className="h-full w-full object-cover" />
       <div className="absolute bottom-4 left-4 text-white">
         <h3 className="text-xl font-bold">Stories</h3>
